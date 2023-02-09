@@ -1,4 +1,4 @@
-Algoritmo AreaDeUnTriangulo
+Algoritmo AreaDeUnTrianguloEquilatero
 	Definir base Como Real;
 	Definir altura Como Real;
 	Definir area Como Real;
