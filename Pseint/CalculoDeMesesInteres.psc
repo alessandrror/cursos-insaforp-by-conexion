@@ -10,6 +10,6 @@ Algoritmo Contador
 	base <- C(1+i)
 	N = ln(base)S;
 	
-	Escribir "El tiempo en años es de: ", N;
+	Escribir "El tiempo en aÃ±os es de: ", N;
 	
 FinAlgoritmo
