@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 50px;
+    /* position: sticky; */
+    top: 0;
+    padding: 1rem;
+
+    position: fixed;
+    width: 100%;
+}
+
+.menu span {
+    color:blue;
+    font-weight: bold;
+    font-size: 2rem;
+    cursor: pointer;
+    width: 20%;
+}
+
+.indice {
+    min-width: 30%;
+}
+
+.indice ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.indice ul li {
+    padding: 0 0.5rem;
+    list-style: none;
+}
+
+.indice ul li a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.indice ul li a:hover {
+    color: blue;
+}
+
+.portada {
+    background-image: url(img/laptop-portada.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+
+    margin-top: 50px;
+}
+
+.portada h1 {
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.bienvenido {
+    background-color: blueviolet;
+    height: 600px;
+}
+
+.articulos {
+    background-color: coral;
+    height: 600px;
+}
+
+.pie {
+    background-color: gray;
+    height: 200px;
+}

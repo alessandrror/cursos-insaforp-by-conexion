@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 50px;
+    /* position: sticky; */
+    top: 0;
+    padding: 1rem;
+
+    position: fixed;
+    width: 100%;
+}
+
+.menu span {
+    color: palevioletred;
+    font-weight: bold;
+    font-size: 2rem;
+    cursor: pointer;
+    width: 20%;
+}
+
+.indice {
+    min-width: 30%;
+}
+
+.indice ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.indice ul li {
+    padding: 0 0.5rem;
+    list-style: none;
+}
+
+.indice ul li a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.indice ul li a:hover {
+    color: palevioletred;
+}
+
+.portada {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+                url(img/salud-portada.jpg) no-repeat;
+    background-size: contain;
+    background-position: right;
+    height: 600px;
+
+    margin-top: 50px;
+}
+
+.portada h1 {
+    color: white;
+    text-shadow: 0.1rem 0.1rem black;
+    width: fit-content;
+    text-align: right;
+    font-size: 3rem;
+}
+
+.bienvenido {
+    background-color: pink;
+    height: 600px;
+}
+
+.articulos {
+    background-color: coral;
+    height: 600px;
+}
+
+.pie {
+    background-color: gray;
+    height: 200px;
+}

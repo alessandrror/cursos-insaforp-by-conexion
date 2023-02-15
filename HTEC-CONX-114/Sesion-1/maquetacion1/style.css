@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    padding: 1rem;
+}
+
+.menu span {
+    color:blue;
+    font-weight: bold;
+    font-size: 2rem;
+    cursor: pointer;
+    width: 20%;
+}
+
+.indice {
+    width: 80%;
+}
+
+.indice ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.indice ul li {
+    color: white;
+    list-style: none;
+    cursor: pointer;
+}
+
+.indice ul li:hover {
+    color: blue;
+}
+
+.portada {
+    background-color: aquamarine;
+    height: 600px;
+}
+
+.bienvenido {
+    background-color: blueviolet;
+    height: 600px;
+}
+
+.articulos {
+    background-color: coral;
+    height: 600px;
+}
+
+.pie {
+    background-color: gray;
+    height: 200px;
+}
