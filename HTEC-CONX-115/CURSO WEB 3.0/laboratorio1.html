@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio 1</title>
+    <script type="text/javascript">
+
+        document.write('<h1>Ticket de Compra</h1>');
+
+        var resultado = null;
+        var mango = 1.15;
+        var melon = 0.8;
+        var fresa = 1.10;
+        var kiwi = 0.50;
+        var uva = 1.65;
+
+        //Precios
+        document.write('<h2>Precios de frutas</h2>');
+        document.write('<p>Mango = $1.15 usd</p>');
+        document.write('<p>Melon = $0.80 usd</p>');
+        document.write('<p>Fresa = $1.10 usd</p>');
+        document.write('<p>Kiwi = $0.50 usd</p>');
+        document.write('<p>Uva = $1.65 usd</p>');
+
+        //Escenario 1
+        document.write('<h2>Escenario 1</h2>');
+        document.write('<p>Tres mangos y un melon</p>');
+        resultado = (mango*3)+melon;
+        document.write('<p>El total de las compras es: $' + resultado + '</p>');
+
+        //Escenario 2
+        document.write('<h2>Escenario 2</h2>');
+        document.write('<p>Un melon, un kiwi, dos uvas y tres fresas</p>');
+        resultado = (melon+kiwi+(uva*2)+(fresa*3));
+        document.write('<p>El total de las compras es: $' + resultado + '</p>');
+
+        //Escenario 3
+        document.write('<h2>Escenario 3</h2>');
+        document.write('<p>Un mango, cuatro kiwis y 2 uvas</p>');
+        resultado = mango+(kiwi*4)+(uva*2);
+        document.write('<p>El total de las compras es: $' + resultado + '</p>');
+
+        //Escenario 4
+        document.write('<h2>Escenario 4</h2>');
+        document.write('<p>Seis fresas y 10 uvas</p>');
+        resultado = (fresa*6)+(uva*10);
+        document.write('<p>El total de las compras es: $' + resultado + '</p>');
+
+        //Escenario 5
+        document.write('<h2>Escenario 5</h2>');
+        document.write('<p>Un mango, un melon, una fresa, un kiwi y una uva</p>');
+        resultado = mango+melon+fresa+kiwi+uva;
+        document.write('<p>El total de las compras es: $' + resultado + '</p>');        
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
